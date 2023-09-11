@@ -16,7 +16,8 @@ li {
 
 .nosotros {
   width: 300px;
-  margin-right: 300px;
+  margin: auto;
+  text-align: center;
 
 }
 
@@ -26,8 +27,22 @@ li {
   color: #fff;
   font-size: 15px;
   position: relative;
-  left: 300px;
-  bottom: 400px;
+  
+
+  margin: auto;
+  text-align: justify;
+}
+.video {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+    
+}
+.tituloNos{
+text-align: center;
+color: white;
+
+ 
 }
 
 .galeria {
@@ -72,54 +87,11 @@ h1 {
   text-align: center;
 }
 
-.img1 {
-  width: 400px;
-  border: #000;
-
-}
 
 body {
   background-color: black;
 }
 
-.img2 {
-  width: 400px;
-}
-
-.img3 {
-  width: 400px;
-}
-
-.img4 {
-  width: 400px;
-}
-
-nav {
-  text-align: center;
-
-}
-
-nav a {
-  text-decoration: none;
-  color: inherit;
-  font-size: 13px;
-  text-align: center;
-}
-
-nav li {
-  display: inline-block;
-  width: 10%;
-  padding: 5px 20px;
-  background-color: #000;
-  border: 1px solid #000;
-  text-align: center;
-  color: #fff;
-}
-
-nav li:hover {
-  background-color: #fff;
-  color: #000;
-}
 
 footer {
   background-color: rgb(236, 241, 245);
@@ -177,59 +149,18 @@ textarea {
   
 }
 
-.modelo1 {
-  width: 400px;
-  margin-left: 30px;
-  background-image: url('/img/camisuli.webp');
-  background-size: cover;
-  background-position: center;
-}
-
-.modelo1:hover::before {
-  transform: translateY(0%);
-
-}
-
-.modelo1::after {
-  content: "camisa facheraa";
-  font-size: 2rem;
-  color: white;
-  background-color: black;
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  transform: translateY(100%);
-}
-
-.modelo2 {
-  width: 400px;
-  margin-left: 30px;
-}
-
-.modelo3 {
-  width: 400px;
-  margin-left: 30px;
-}
-
-.modelo4 {
-  width: 400px;
-  margin-left: 30px;
-}
-
-.modelo5 {
-  width: 400px;
-  margin-left: 30px;
-}
-
-.modelo6 {
-  width: 400px;
-  margin-left: 30px;
-}
 .card2 {
   width: 100px;
   margin-left: 100px;
 }
+.card1{
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  border-color: black;
+  border-style: double;
+ 
+  }
 
 @media (max-width: 767px) {
   .nosotros {
