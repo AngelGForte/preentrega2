@@ -11,14 +11,13 @@ li {
 
 .logo {
   width: 80px;
+  
 
 }
 
 .nosotros {
   width: 300px;
-  margin: auto;
-  text-align: center;
-
+ 
 }
 
 .presentacion {
@@ -28,14 +27,18 @@ li {
   font-size: 15px;
   position: relative;
   
+  
 
   margin: auto;
   text-align: justify;
 }
 .video {
-  width: 1000px;
+  width: 700px;
   height: 500px;
   position: relative;
+  margin: auto;
+  display: flex;
+  
     
 }
 .tituloNos{
