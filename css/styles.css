@@ -1,0 +1,233 @@
+header {
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+}
+header .logo {
+  width: 80px;
+}
+
+footer {
+  background-color: #262929;
+  grid-area: footer;
+  grid-column: 1/5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+footer .Redes {
+  width: 100%;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .Redes .boton {
+  font-style: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .Redes .boton a {
+  color: #ffffff;
+}
+footer .Redes .Redes_hijos .logoRed {
+  width: 21px;
+  height: 21px;
+}
+
+@media screen and (max-width: 1200px) {
+  footer div {
+    background-color: rgb(38, 41, 41);
+    grid-area: footer;
+    grid-column: 1f 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+    height: max-content;
+  }
+  footer div .logoRed {
+    width: 5px;
+    height: 5px;
+  }
+}
+@media screen and (max-width: 900px) {
+  footer div {
+    background-color: rgb(38, 41, 41);
+    grid-area: footer;
+    grid-column: 1f 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+    height: max-content;
+    padding: 5px;
+  }
+  footer div .logoRed {
+    width: 5px;
+    height: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer div {
+    background-color: rgb(38, 41, 41);
+    grid-area: footer;
+    grid-column: 1f 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+    height: max-content;
+  }
+  footer div .Redes_hijos .logoRed {
+    width: 5px;
+    height: 5px;
+    border-radius: 30%;
+  }
+}
+@media screen and (max-width: 300px) {
+  footer div {
+    background-color: rgb(38, 41, 41);
+    grid-area: footer;
+    grid-column: 1f 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+  }
+  footer div .Redes_hijos .logoRed {
+    width: 5px;
+    height: 5px;
+    border-radius: 30%;
+  }
+}
+.galeria {
+  position: relative;
+}
+.galeria section {
+  display: flex;
+  width: 800px;
+  height: 430px;
+  margin: auto;
+}
+.galeria section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 8;
+  transition: 4s ease;
+}
+.galeria section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.tituloNos {
+  text-align: center;
+  color: white;
+}
+
+.presentacion {
+  font-display: flex;
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  margin: auto;
+  text-align: justify;
+}
+
+.video {
+  height: 500px;
+  position: relative;
+  margin: auto;
+  display: flex;
+}
+
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: auto;
+  width: 340px;
+}
+form .formularioContacto {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+form .formularioContacto .titulo {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+form .formularioContacto label {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+form .formularioContacto input,
+form .formularioContacto textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #edfdff;
+  border: 2px solid rgba(52, 3, 247, 0.7882352941);
+  color: #283529;
+  outline: none;
+}
+
+.direccion {
+  color: white;
+  position: relative;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .nosotros {
+    display: none;
+  }
+  .presentacion {
+    text-align: center;
+    font-display: flex;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    left: auto;
+    bottom: auto;
+  }
+  .galeria {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #carouselExample {
+    display: none;
+  }
+}
+body {
+  background-color: black;
+}
+
+.card .boton {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.imagenesInicio1 {
+  text-align: center;
+}
+
+.imagenesInicio2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

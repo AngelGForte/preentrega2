@@ -1,0 +1,35 @@
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: auto;
+  width: 340px;
+}
+form .formularioContacto {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+form .formularioContacto .titulo {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+form .formularioContacto label {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+form .formularioContacto input,
+form .formularioContacto textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #edfdff;
+  border: 2px solid rgba(52, 3, 247, 0.7882352941);
+  color: #283529;
+  outline: none;
+}
+
+/*# sourceMappingURL=contacto.css.map */

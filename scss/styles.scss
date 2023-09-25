@@ -1,0 +1,47 @@
+//se importan todos los modulos de sass
+@import"./variables";
+@import"./mixin";
+@import"./header";
+@import"./footer";
+@import"./pages/tienda";
+@import"./pages/nosotros";
+@import"./pages/contacto";
+@import"./pages/locales";
+@import"./movile";
+
+
+
+
+body {
+
+
+background-color: black;
+
+
+}
+
+.card{
+
+  .boton{
+    background-color:$colorNegro;
+    border-color:$colorNegro;
+   
+   
+
+  }
+
+}
+
+h1 {
+    text-align: center;
+  
+  }
+  
+  .imagenesInicio1 {
+    text-align: center;
+  }
+  
+  .imagenesInicio2 {
+    text-align: center;
+  }
+  

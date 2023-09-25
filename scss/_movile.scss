@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+    .nosotros {
+      display: none;
+    }
+  
+    .presentacion {
+      text-align: center;
+      font-display: flex;
+      color: #fff;
+      font-size: 15px;
+      position: relative;
+      left: auto;
+      bottom: auto;
+    }
+    .galeria{
+      display: none;
+    }
+  }
+  @media (min-width: 768px){
+    #carouselExample{
+      display: none;
+    }
+    
+  }
